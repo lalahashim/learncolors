@@ -1,0 +1,71 @@
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.color-title {
+    font-weight: bold;
+}
+
+#red {
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+#light-blue{
+    color: lightskyblue;
+}
+
+#green {
+    color: green;
+}
+
+#yellow {
+    color: yellow;
+}
+
+#orange {
+    color: orangered;
+}
+
+#pink {
+    color: pink;
+}
+
+#purple {
+    color: purple;
+}
+
+#brown {
+    color: brown;
+}
+
+#grey {
+    color: gray;
+}
+
+#beige {
+    color: bisque;
+}
+
+#gold {
+    color: goldenrod;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.color-title{
+    margin-bottom: 1px;
+}
+
+h1{
+    text-align: center;
+}
